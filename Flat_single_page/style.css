@@ -39,8 +39,9 @@ body{
 .navbar-inverse .navbar-toggle{
 	border-color:  #5398c6;
 }
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
 	border-color:  #5398c6;
+}
 }
 
 

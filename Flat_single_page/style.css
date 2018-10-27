@@ -14,13 +14,17 @@ body{
 }
 .navbar-brand{
 	min-height: 55px;
-	padding: 0 15px 5px;
+	padding: 5px 15px 4px;
 	color: #fff;
 }
 
 .navbar-nav li{
 	padding-right: 20px;
 
+}
+.navbar-inverse .navbar-brand{
+    font-size: 300%;
+	color: #fff;
 }
 .navbar-inverse .navbar-nav li a{
 	color: #fff;
@@ -75,7 +79,72 @@ img{
 	max-width: 200px;
 	margin: 1% auto;
 }
+.social{
+	font-size: 500%
+}
+.social a{
+	padding: 3%;
+	color: #fff;
+}
+.social a:hover{
+	padding: 3%;
+	color: #d5d5d5;
+}
 
+#home{
+	padding-top: 60px;
+}
+#about{
+	padding: 70px 0px;
+	background-color: #1fb8eb;
 
+}
+#features{
+	padding: 70px 0px 50px;
+	background-color: #ff9800;
+}
+#portfolio{
+	padding: 70px 0px 50px;
+	background-color: #00b2ca;
+}
+#connect{
+	padding: 0px 0px 12%;
+	background-color: #673ab7;
+}
 
+.row{
+	margin: 0;
+}
 
+@media(max-width: 760px){
+	h1{
+		font-size: 170%;
+
+	}
+	h2{
+		font-size: 160%;
+	}
+	h3{
+		font-size: 120%;
+		max-width: 90%;
+	}
+	p{
+		padding-top: 3%;
+		font-size: 100%;
+	}
+	img#code{
+		max-width: 160px;
+	}
+	.col-sm-4 #icon{
+		max-width: 110px;
+
+	}
+	.col-md-4 #icon{
+		max-width: 110px;
+		padding-bottom: 8%;
+		
+	}
+	.social{
+		font-size: 200%;
+	}
+}

@@ -1,3 +1,3 @@
 # Bootstrap_themes
 
-<p> Various themes I've worked on.</p>
+<p> Various themes I've worked on.The themes are under no copyright laws. totally free.</p>

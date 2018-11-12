@@ -28,7 +28,7 @@ html,body{
 	height: 100%;
 	position: relative;
 	width: 100%;
-	background-size cover;
+	background-size: cover;
 }
 
 

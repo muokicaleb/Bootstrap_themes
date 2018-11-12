@@ -82,6 +82,15 @@ footer{
 	.landing-text h1{
 		font-size: 300%;
 	}
+	.fa{
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon{
+		padding-top: 5%;
+		max-width: 100px;
+
+	}
 }
 
 

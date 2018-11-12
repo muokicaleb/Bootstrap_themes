@@ -60,7 +60,23 @@ html,body{
 }
 
 
-
+footer{
+	width: 100%;
+	background-color: #23415C;
+	padding: 5% 5% 10% 5;
+	color: #FFF;
+}
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+.fa:hover{
+	color: #D5D5D5D5;
+	text-decoration: none;
+}
+.icon{max-width: 200px;}
+	
 
 
 

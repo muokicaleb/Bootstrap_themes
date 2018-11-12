@@ -22,8 +22,8 @@ html,body{
 	color: #FFF;
 }
 
-#home{
-	background: url("img/mountains.jpeg") no-repeat center center fixed;
+.bg{
+	background: url("img/bootstrap.png") no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	position: relative;

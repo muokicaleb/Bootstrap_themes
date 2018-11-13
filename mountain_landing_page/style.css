@@ -38,6 +38,9 @@ html,body{
 .home-inner{
   background-image: url(img/mountains.jpeg);
 }
+.fixed-inner{
+	background-image: url(img/background.jpg);
+}
 
 .caption {
   width: 100%;

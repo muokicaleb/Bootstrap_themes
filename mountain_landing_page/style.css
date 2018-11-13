@@ -132,7 +132,7 @@ footer{
 }
 
 
-#fixed {
+.fixed {
   background-image: url('img/background.jpeg');
   position: fixed;
   display: block;

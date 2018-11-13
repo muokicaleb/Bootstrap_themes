@@ -21,7 +21,7 @@ html,body{
   width: 100%;
   height: 100%;
 }
-.home-inner {
+.home-inner ,.fixed-inner {
   position: fixed;
   display: table;
   top: 0;
@@ -39,7 +39,7 @@ html,body{
   background-image: url(img/mountains.jpeg);
 }
 .fixed-inner{
-	background-image: url(img/background.jpg);
+	background-image: url(img/background.jpg); 
 }
 
 .caption {

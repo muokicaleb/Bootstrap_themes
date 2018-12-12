@@ -5,6 +5,7 @@ padding:0;
 }
 .carousel, .item, .active {
 height:100%;
+margin-bottom: 15px;
 }
 .imgcarousel{
 	

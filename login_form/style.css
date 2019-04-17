@@ -31,3 +31,28 @@ body{
   box-shadow: 0px 0px 2px #848484;
 
 }
+.form-group{
+  margin-bottom: 25px;
+}
+
+.form-group input{
+  height: 42px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
+  padding-left: 54px;
+}
+
+.form-group::before{
+  font-family: 'Font Awesome\ 5 Free';
+  content: "\f007";
+  position: absolute;
+  font-size: 22px;
+  color: #555e60;
+  left: 28px;
+  padding-top: 4px;
+}
+
+.form-group:last-of-type::before{
+  content: "\f023";
+}

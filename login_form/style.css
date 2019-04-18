@@ -38,7 +38,7 @@ body{
 .form-group input{
   height: 42px;
   border-radius: 5px;
-  border: 0;
+  border: 0; 
   font-size: 18px;
   padding-left: 54px;
 }
@@ -55,4 +55,27 @@ body{
 
 .form-group:last-of-type::before{
   content: "\f023";
+}
+
+button{
+  width: 40p%;
+  margin: 5px 0 25px;
+}
+
+.btn{
+  background-color: #27c2a5;
+  color: #fff;
+  font-size: 19px;
+  padding: 7px 14px;
+  border-radius: 5px;
+  border-bottom: 4px solid #219882;
+}
+
+.btn:hover, .btn:focus{
+  background-color: #25a890!important;
+  border-bottom: 4px solid #25a890!important;
+}
+.svg-inline--fa{
+  font-size: 20px;
+  margin-right: 7px;
 }

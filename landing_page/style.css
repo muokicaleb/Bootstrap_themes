@@ -1,7 +1,30 @@
 body {
 	overflow-x: hidden; /*--right gutter fix--*/
 }
+.navbar-brand img{
+  height: 2rem;
+}
 
+.home-inner{
+  background-image: url('img/landing.png');
+}
+
+.navbar{
+  background-color: transparent!important;
+}
+svg{
+  color: white;
+  font-size: 1.3rem!important;
+  margin-top: .4rem!important;
+  margin-right: .8rem!important;
+}
+
+.caption{
+  position:absolute;
+  z-index: 1;
+  top:35%;
+  width: 100%;
+}
 
 /*--- Media Queries --*/
 @media (max-width: 768px) {
